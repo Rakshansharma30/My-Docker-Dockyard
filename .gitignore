@@ -1,0 +1,7 @@
+# Ignore Docker-related files
+*.log
+*.pid
+__pycache__/
+.env
+node_modules/
+*.db
