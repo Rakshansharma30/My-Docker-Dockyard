@@ -1,0 +1,6 @@
+FROM python:3-slim
+COPY requirement.txt .
+RUN python -m pip install -r requirement.txt
+WORKDIR /code
+COPY src /code/src
+CMD ["streamlit", "run", "src/stream.py"]

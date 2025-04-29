@@ -1,0 +1,9 @@
+version: '3'
+services:
+  dockerex2:
+    build: .
+    ports:
+      - "8502:8502"
+    container_name: dockerex2
+    environment:
+      - STREAMLIT_SERVER_PORT=8502

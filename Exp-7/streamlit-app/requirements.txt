@@ -1,0 +1,16 @@
+category_encoders
+evidently
+jupyter
+jupyter_contrib_nbextensions
+matplotlib
+numpy
+pandas
+pyarrow
+python-box
+requests
+streamlit
+pyyaml
+scikit-learn
+scipy
+seaborn
+altair
